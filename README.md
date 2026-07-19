@@ -1,5 +1,9 @@
 # 🦦 Otter Bank: Alloy Sandbox Integration
 
+**Live demo:** https://otter-bank.onrender.com (free-tier hosting, so the
+first load after a quiet period can take up to a minute while the instance
+wakes up)
+
 A demo bank-account application flow integrated with [Alloy](https://alloy.co)'s
 identity decisioning API. An applicant fills out a form, the backend submits
 their details to Alloy's sandbox `POST /v1/evaluations/` endpoint, and the app
