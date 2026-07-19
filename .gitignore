@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+ZLVL-1WB0-message.txt
+*-message.txt
+
+# Private planning docs — not part of the submission
+NOTES.md
+PLAN.md
+WALKTHROUGH.md
+presentation/
+postman/
+Alloy_-_Technical_Success_Manager_Work_Assignment_(App).pdf
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
