@@ -88,15 +88,6 @@ the server (the API never trusts the client):
   network/upstream failures. Each is rendered as a friendly message in the UI.
 - Unrecognized outcomes get a safe fallback screen rather than a crash.
 
-## Security notes
-
-- Credentials live in `server/.env` (gitignored); `.env.example` documents the
-  shape without the secrets.
-- The SSN and other PII are never logged; the server logs only the outcome
-  and Alloy's evaluation token.
-- Alloy credentials never reach the browser; the frontend only calls the
-  local API.
-
 ## Project structure
 
 ```
